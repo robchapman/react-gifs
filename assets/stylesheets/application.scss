@@ -2,11 +2,10 @@ body {
   font-family: Helvetica;
 }
 
-#root {
-  height: 100vh;
+
+#root > div {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 100vh;
 }
 
 // @import "components/fonts";
